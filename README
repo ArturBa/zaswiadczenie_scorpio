@@ -1,11 +1,11 @@
-#zaswiadczenie -- template
-##Jak uzyskać plik pdf?
-*'''
+# zaswiadczenie -- template
+## Jak uzyskać plik pdf?
+* ```
  git clone 
  make
- '''
-*'''
+ ```
+* ```
  git clone 
  pdf *.tex
- '''
-*overleaf
+ ```
+* overleaf

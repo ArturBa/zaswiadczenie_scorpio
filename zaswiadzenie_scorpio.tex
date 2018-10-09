@@ -13,17 +13,13 @@
 \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
 \makeatother
 
-\date{Wrocław, \today}
-
 \textwidth 6.75in
 \textheight 9.25in
 \oddsidemargin -.25in
 \evensidemargin -.25in
 \topmargin -1in
-\longindentation 0.50\textwidth
+\longindentation 15mm %0.50\textwidth
 \parindent 0.4in
-
-\signature{Prof.~dr~hab.~inż.~Piotr~Dudziński\\Opiekun~Koła~Naukowego~OFF-ROAD} 
 
 \long\def\closing#1{
 \vspace{0.4in} % Some whitespace after the letter content and before the signature
@@ -34,6 +30,19 @@
 \vskip 0.65in % Whitespace between the signature text and your name
 \fromsig}} % Print your name and title
 
+\signature{%
+  \begin{tabular}{c p{20mm}c}
+      \prezes & ~ & \opiekun\\
+       Prezes Koła Naukowego OFF-ROAD&~&Opiekun Koła Naukowego OFF-ROAD
+  \end{tabular}
+} 
+
+
+
+\date{Wrocław, \today}
+
+\def\opiekun{Prof.~dr~hab.~inż.~Piotr~Dudziński}
+\def\prezes{Anna Wójcik}
 
 \begin{document}
 \begin{letter}{}

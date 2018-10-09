@@ -8,4 +8,4 @@
    git clone 
    pdf *.tex
    ```
-* overleaf
+* [overleaf](www.overleaf.com) lub inny edytor latex online 
